@@ -1,0 +1,19 @@
+.five{
+    background-image: url('./images/8116\ 1\ \(1\).png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 50px;
+}
+.five .content{
+    color: white;
+text-align: center;
+background-color: rgba(1, 1, 1, 0.6);
+width: 70%;
+size: 30px;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+translate: 15% 50%;
+}

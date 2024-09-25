@@ -1,0 +1,99 @@
+.six {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 100px;
+  gap: 50px;
+  background-color: rgb(244, 242, 242);
+}
+.item1 {
+  grid-column: 1 2;
+  grid-row: 1 2;
+ 
+}.item1box{
+     width: 300px;
+  gap: 10px;
+  
+}
+.item1box h1{
+margin: 20px;
+}
+
+.item2 {
+  grid-column: 2 3;
+  grid-row: 1 2;
+  border: solid black;
+}
+.item3 {
+  grid-column: 3 4;
+  grid-row: 1 2;
+}
+.item4 {
+  grid-column: 1 2;
+  grid-row: 2 3;
+}
+.item5 {
+  grid-column: 2 3;
+  grid-row: 2 3;
+  width: 100px;
+  gap: 10px;
+}
+.item1 h1{
+   font-size: large;
+}
+.thunder img{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(21, 170, 170);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.thunder {
+    background-color: rgb(168, 245, 245);
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+ .box .photo img {
+  background-color: rgba(193, 246, 242, 0.984);
+  width: 50px;
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ translate:  230% 50%;
+
+}
+ .box .photo {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(193, 246, 242, 0.984);
+ border-radius: 10px;
+
+}
+
+ .box {
+  width: 300px;
+}
+ .box h3 {
+  margin-top: 10px;
+ 
+}
+ .box p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+ .box a {
+  text-decoration: none;
+  color: rgb(41, 227, 140);
+  margin-top: 20px;
+}
+ .box{
+    padding: 30px;
+  border: solid rgba(193, 246, 242, 0.984);
+  border-radius: 10px;
+
+
+}
